@@ -6,6 +6,7 @@
 .container{
     display: flex;
     flex-direction: column;
+    background: linear-gradient(15deg, #96d0ff, #88c0fe, #82affa, #839cf4, #8b88ea, #9771db, #a358c8, #ae37b0);
     
 }
 .header {
@@ -21,7 +22,7 @@
 }
 .hero-text h1{
     color: #fff;
-    font-size: 54px;
+    font-size: 64px;
     font-weight: 300;
 }
 .important-quote{
@@ -30,6 +31,8 @@
     justify-content: center;
     align-items: center;
     height: 160px;
+    color: #fff;
+    
 }
 .important-quote h2{
     font-size: 38px;
@@ -43,9 +46,10 @@
 }
 .quotes-card{
     border-radius: 10px;
+    border: 2px solid #fff;
     width: 95%;
-    border: 2px solid rgba(0, 0, 0, 0.7);
-    height: 200px;
+    background-color: rgba(255, 255, 255, 0.815);
+    color: #000;
     display: flex;
     flex-direction: column;
     margin: 20px 0;
@@ -57,10 +61,11 @@
 .quotes-card h2{
     font-size: 32px;
     font-weight: 300;
-    margin: 20px;
+    padding: 20px;
+    border-bottom: 2px solid black;
 }
 .quotes p{
     font-style: italic;
-    font-size: 24px;
-    margin: 16px;
+    font-size: 26px;
+    margin: 20px;
 }
